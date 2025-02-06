@@ -4,7 +4,7 @@
 *Figure 1: Remote development setup with MacStudio as server and VS Code integration*
 
 
-A step-by-step guide to creating a powerful, private AI coding assistant using Ollama and Continue extension in VS Code, with remote server capabilities.
+A step-by-step guide to creating a powerful, private AI coding assistant using Ollama server and Continue extension in VS Code, with remote server capabilities.
 
 
 ## Introduction
