@@ -1,16 +1,13 @@
 # Setting up a Remote AI Code Assistant: Ollama + Continue in VS Code
 
-# Setting up a Remote AI Code Assistant: Ollama + Continue in VS Code
-
-![Remote Development Setup with MacStudio](https://image-url-1-here)
+![Remote Development Setup with MacStudio](https://github.com/user-attachments/assets/251d6077-7349-42b6-9baa-623bceae0680)
 *Figure 1: Remote development setup with MacStudio as server and VS Code integration*
 
 
 A step-by-step guide to creating a powerful, private AI coding assistant using Ollama and Continue extension in VS Code, with remote server capabilities.
 
+
 ## Introduction
-![VS Code with Continue AI Assistant](https://image-url-2-here)
-*Figure 2: VS Code environment with Continue AI extension and code suggestions*
 
 As developers, we're always looking for ways to enhance our coding workflow while maintaining privacy and control over our tools. In this guide, I'll show you how to set up a powerful, locally-hosted AI coding assistant using Ollama models and the Continue extension for VS Code, with a unique twist: running it on a remote server while accessing it from any client machine.
 
@@ -76,6 +73,10 @@ ollama pull linux6200/bge-reranker-v2-m3
 
 On your client machine:
 
+![VS Code with Continue AI Assistant](https://github.com/user-attachments/assets/c1dc32b6-6758-4cb8-9221-4c6fcca443e2)
+*Figure 2: VS Code environment with Continue AI extension and code suggestions*
+
+
 1. Install VS Code
 2. Install Continue extension (continue.dev)
 3. Set up VS Code tunnel:
@@ -122,6 +123,7 @@ Create or update Continue's config.json:
 }
 ```
 _Remember to replace [SERVER-IP] with your actual server IP address in all configuration examples._
+
 
 ### 4. Enable Network Access
 
